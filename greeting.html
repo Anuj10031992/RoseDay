@@ -130,6 +130,24 @@ p {
     transform: scale(1.1);
 }
 
+
+.reply-btn {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 22px;
+    margin: 8px;
+    border-radius: 30px;
+    background: #ff69b4;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.reply-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
 #answer {
     font-size: 2rem;
     color: #d10056;
@@ -250,13 +268,24 @@ p {
         I love you forever ❤️
     </p>
 
-    <div id="valentineBox">
-        <h2>Will you be my Valentine? 💖</h2>
-        <div class="btns">
-            <button onclick="sayYes()">Yes ❤️</button>
-            <button onclick="sayYes()">Always 😍</button>
-        </div>
+<div id="valentineBox">
+    <h2>Will you be my Valentine? 💖</h2>
+    <div class="btns">
+        <a class="reply-btn"
+           href="mailto:anuj.kumar.varshney@gmail.com
+           ?subject=🌹 Rose Day Response – YES ❤️
+           &body=I clicked YES ❤️%0AYou are my Valentine forever 💕">
+           Yes ❤️
+        </a>
+
+        <a class="reply-btn"
+           href="mailto:anuj.kumar.varshney@gmail.com
+           ?subject=🌹 Rose Day Response – ALWAYS 😍
+           &body=It will ALWAYS be you 😍🌹">
+           Always 😍
+        </a>
     </div>
+</div>
 
     <div id="answer"></div>
 </div>
